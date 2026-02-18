@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mumbai Appliance Service Center | AC, Washing Machine, Refrigerator Repairs</title>
-
-  <meta name="description" content="Book expert appliance repair in Mumbai. AC, fridge, washing machine, microwave and TV repair with same-day service. Affordable rates and reliable technicians.">
-
-  <meta name="keywords" content="ac repair in mumbai, washing machine repair mumbai, fridge repair service mumbai, microwave repair mumbai, tv repair service mumbai, home appliance repair mumbai, geyser repair mumbai, gas stove repair mumbai, same day ac repair mumbai, best ac service in mumbai, washing machine technician mumbai, emergency fridge repair mumbai, ac gas filling service mumbai, appliance repair bandra, repair technician goregaon, ac service in andheri">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -831,6 +826,206 @@
                 padding: 30px 20px;
             }
         }
+        
+        footer {
+            background: #0b1c2f;      /* deep navy */
+            color: #b0c4de;            /* soft steel blue */
+            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px 30px;
+        }
+
+        /* main grid – 4 columns */
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2.2fr 1fr 1fr 1.5fr;
+            gap: 40px 30px;
+        }
+
+        @media (max-width: 992px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* column headings */
+        .footer-col h3 {
+            color: #ffffff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.7rem;
+            position: relative;
+        }
+
+        .footer-col h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 2px;
+            background: #e67e22;       /* warm accent */
+        }
+
+        /* text & links */
+        .footer-col p,
+        .footer-col li {
+            line-height: 1.7;
+            margin-bottom: 0.7rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.7rem;
+        }
+
+        .footer-links a {
+            color: #b0c4de;
+            text-decoration: none;
+            transition: color 0.2s ease, padding-left 0.2s;
+            display: inline-block;
+        }
+
+        .footer-links a:hover {
+            color: #e67e22;
+            padding-left: 6px;
+        }
+
+        /* business details with icons */
+        .business-details p {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 1rem;
+        }
+
+        .business-details i {
+            width: 20px;
+            color: #e67e22;
+            font-size: 1.1rem;
+            margin-top: 4px;
+        }
+
+        /* social icons */
+        .social-links {
+            margin-top: 25px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            background: #e67e22;
+            transform: translateY(-4px);
+        }
+
+        /* newsletter form */
+        .newsletter-form .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-form input {
+            width: 100%;
+            padding: 12px 18px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 0.95rem;
+            transition: border 0.2s, background 0.2s;
+        }
+
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: #e67e22;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .newsletter-form input::placeholder {
+            color: #a0b8cc;
+        }
+
+        .newsletter-form button {
+            background: #e67e22;
+            color: #fff;
+            border: none;
+            width: 100%;
+            padding: 12px 20px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .newsletter-form button:hover {
+            background: #cf6d17;
+        }
+
+        /* footer bottom */
+        .footer-bottom {
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .footer-bottom p {
+            color: #8fa9c2;
+        }
+
+        .legal-links a {
+            color: #b0c4de;
+            text-decoration: none;
+            margin-left: 25px;
+            transition: color 0.2s;
+        }
+
+        .legal-links a:hover {
+            color: #e67e22;
+        }
+
+        @media (max-width: 700px) {
+            .footer-bottom {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            .legal-links a {
+                margin: 0 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1092,20 +1287,45 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========== REDESIGNED FOOTER ========== -->
     <footer>
         <div class="container">
-            <div class="footer-container">
+            <!-- main grid -->
+            <div class="footer-grid">
+
+                <!-- COLUMN 1: COMPANY INFO + CONTACT + SOCIAL -->
                 <div class="footer-col">
-                    <h3>Mumbai Service Center</h3>
-                    <p>Your trusted partner for all appliance repair and maintenance needs in Mumbai. We provide professional, reliable, and affordable services.</p>
+                    <h3>Mumbai AC Repair</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        Your trusted partner for all appliance repair and maintenance needs in Mumbai. 
+                        Professional, reliable, and affordable services – available 7 days a week.
+                    </p>
+
+                    <div class="business-details">
+                        <p><i class="fas fa-user"></i> <strong>Owner:</strong> FARAHIM</p>
+                        <p><i class="fas fa-id-card"></i> <strong>UDYAM:</strong> UDYAM-MH-19-0371072</p>
+                        <p><i class="fas fa-id-card"></i> <strong>PAN:</strong> BATPP4213QB</p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                Flat No. 7, Unique Heights B Wing,<br>
+                                MMC Road, Mahim (West),<br>
+                                Mumbai, Maharashtra – 400016
+                            </span>
+                        </p>
+                        <p><i class="fas fa-phone-alt"></i> <strong>Call us:</strong> +91 99876 54321</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> contact@mumbaiacrepair.com</p>
+                    </div>
+
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
+
+                <!-- COLUMN 2: QUICK LINKS -->
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
@@ -1116,32 +1336,51 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+
+                <!-- COLUMN 3: OUR SERVICES -->
                 <div class="footer-col">
                     <h3>Our Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#">AC Repair</a></li>
+                        <li><a href="#">AC Repair & Service</a></li>
                         <li><a href="#">Washing Machine Repair</a></li>
                         <li><a href="#">Refrigerator Repair</a></li>
-                        <li><a href="#">Microwave Repair</a></li>
-                        <li><a href="#">Annual Maintenance</a></li>
+                        <li><a href="#">Microwave / Oven Repair</a></li>
+                        <li><a href="#">Annual Maintenance Contract</a></li>
                     </ul>
                 </div>
+
+                <!-- COLUMN 4: NEWSLETTER + EXTRA -->
                 <div class="footer-col">
                     <h3>Newsletter</h3>
-                    <p>Subscribe to our newsletter for tips on appliance maintenance and special offers.</p>
+                    <p style="margin-bottom: 1.2rem;">
+                        Subscribe for appliance care tips, seasonal offers & service updates.
+                    </p>
                     <form class="newsletter-form">
                         <div class="form-group">
-                            <input type="email" placeholder="Your Email" class="form-control">
+                            <input type="email" placeholder="Your email address" required>
                         </div>
                         <button type="submit" class="submit-btn">Subscribe</button>
                     </form>
+                    <!-- small trust note -->
+                    <p style="font-size: 0.85rem; margin-top: 1.5rem; color: #8fa9c2;">
+                        <i class="fas fa-shield-alt" style="margin-right: 5px;"></i>
+                        We respect your privacy – no spam.
+                    </p>
+                </div>
+            </div> <!-- end footer-grid -->
+
+            <!-- FOOTER BOTTOM: copyright + legal links -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mumbai AC Repair Service Center. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sitemap</a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 Mumbai Service Center. All Rights Reserved.</p>
-            </div>
-        </div>
+        </div> <!-- end container -->
     </footer>
+
 
     <script>
         // Mobile Menu Toggle
